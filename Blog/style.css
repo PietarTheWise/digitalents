@@ -1,0 +1,66 @@
+*{
+    font-family: "Montserrat";
+    color: white;
+    font-weight: normal;
+    scroll-behavior: smooth;
+    --highlight-color: rgb(0, 255, 170);
+}
+
+
+body{
+    background-color: rgb(19, 21, 22);
+}
+
+h1{
+    font-size: 5vh;
+    letter-spacing: 1rem;
+
+}
+
+header{
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a{
+    border: 1px solid white;
+    padding: 2vh;
+    padding-left: 8vh;
+    padding-right: 8vh;
+    margin: 5vh;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: white;
+    transition: ease-in 0.3s;
+    color: rgb(19, 21, 22);
+}
+
+.posts {
+    border: 1px solid var(--highlight-color);
+    height:100vh;
+    padding-left: 40vh;
+    padding-right: 40vh;
+}
+
+.post{
+    border-bottom: 1px solid white;
+    padding-bottom: 7vh;
+}
+
+h2{
+    font-size: 7vh;
+
+}
+
+h3 {
+    font-size: 3vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    color: var(--highlight-color);
+}
