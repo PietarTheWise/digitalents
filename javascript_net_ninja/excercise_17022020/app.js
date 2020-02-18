@@ -13,16 +13,27 @@ const random = Math.random() * 10;
 
 
     
-const test = template.map(function(){ 
-    return Math.floor(random)
-});
+// const test = template.map(function(){ 
+//     return Math.floor(random)
+// });
 
-console.log(test)
 
-// for (let i = 0; i < template.length; i++){
-//     template[i].map(e => e Math.floor(random))
+const numbers = [1, -1, 2, 3, "Haribo", 2, 5, 6];
+
+const filtered = numbers.filter(function(value){
+    if(Number.isInteger(numbers)){
+        return value;
+    }
+})
+
+console.log(filtered);
+
+
+
+// for(let i = 0; i < numbers.length; i++){
+//     console.log(Number.isInteger(numbers[i]));
+
 // }
-
 
 
 
